@@ -7,11 +7,11 @@ Keep the file in the same dir as the script, whatever that is.
 It should just do what it says on the tin, if a bit rigidly.
 
 usage: nyaa-uploader.py [-h] [-g GROUP] [-t TITLE] [-p PART] [-y TYPE]
-                        (-V VIDEO | -l) [-T TORRENT]
-                        {lraw,lsub,araw,asub}
+                        (-V VIDEO | -l) [-T TORRENT] -C CRED
+                        {lraw,lsub,araw,asub,asnn}
 
 positional arguments:
-  {lraw,lsub,araw,asub}
+  {lraw,lsub,araw,asub,asnn}
                         Nyaa/Tosho Category
 
 optional arguments:
@@ -28,3 +28,4 @@ optional arguments:
                         exactly one.
   -T TORRENT, --torrent TORRENT
                         Torrent file, if it doesn't match video.
+  -C CRED, --cred CRED  Credentials file.

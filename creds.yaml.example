@@ -1,4 +1,6 @@
 nyaa_login: NyaaUser
 nyaa_pass: NyaaPassWord
+nyaa_desc: NyaaDescriiption
 tt_api_key: 9999-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+tt_desc: TokyoToshoDescription
 website: http://a.website.com
